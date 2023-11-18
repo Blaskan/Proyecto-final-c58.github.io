@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/stylos.css" />
+    <title>PAgina turismo</title>
+  </head>
+  <body>
+    <header>
+      <a href="#" class="logo">
+        <img src="css/logo.png" alt="viajar" />
+        <h2 class="Buenos Aires">Turismo en Buenos Aires</h2>
+      </a>
+      <nav>
+        <a href="" class="nav-link">Inicio</a>
+        <a href="" class="nav-link">Categoria</a>
+        <a href="https://almundo.com.ar/paquetes-turisticos" class="nav-link">paquetes</a>
+        <a href="https://www.assistcard.com/ar?msclkid=12d743d8b9b41e5cb5a3268e70dcb1fd&utm_source=bing&utm_medium=cpc&utm_campaign=AR_Lead_Competencia_Bing_SC_Top&utm_term=universal%20assistance%20cobertura%20viajero&utm_content=UNIVERSAL%20ASSISTANCE" class="nav-link">Asistencia</a>
+      </nav>
+    </header>
+    <div class="Container">
+      <input type="text" placeholder="Buscar.." />
+      <button><i class="fa-duotone fa-magnifying-glass"></i></button>
+    </div>
+    <h2>Buenos Aires</h2>
+    <div class="carousel-container slide">
+      <div class="carousel">
+        <img src="imagen/img1.jpg" alt="Image 1">
+        <img src="imagen/img2.jpg" alt="Image 2">
+        <img src="imagen/img3.jpg" alt="Image 3">
+        <img src="imagen/img4.jpg" alt="Image 4">
+      </div>
+      <button class="prev-btn" onclick="prevSlide()">Anterior</button>
+      <button class="next-btn" onclick="nextSlide()">Siguiente</button>
+    </div>
+     <form action="" method="post" id="form">
+      <div class="form">
+        <h1>Registro</h1>
+        <div class="grupo">
+          <input type="text" name="" id="email"><span class="Barra"></span>
+          <label for="">Nombre</label>
+        </div>
+        <div class="grupo">
+          <input type="Email" name="" id="Email"><span class="Barra"></span>
+          <label for="">Email</label>
+        </div>
+        <div class="grupo">
+          <input type="Password" name="" id="Pasword"><span class="Barra"></span>
+          <label for="">Password</label>
+        </div>
+        <button type="submit"> Suscribirte</button>
+        <p class="Warnings" id="warning"></p>
+        
+      </div>
+     </form>
+     <div class="contenedor"> 
+      <h1> Provincias</h1>
+      <img src="https://padondenosvamos.com/wp-content/uploads/2017/10/1280px-Centro_C%C3%ADvico_y_Puerto_San_Carlos_en_Bariloche-1024x768.jpg" alt="">
+      <img src="https://www.christiesrealestate.com/localimagereader.ashx?imageurl=siteresources%2Fmy%20folder%2Fimages%2Farticles%2Fcordoba-argentina-vibrant-picturesque-haven%2Fcordoba%20province%20argentina%20(3).jpg&imagecache=true" alt="">
+      <img src="https://i1.wp.com/elheraldoslp.com.mx/wp-content/uploads/2021/02/Mendoza-Argentina.jpg?fit=1000%2C749&ssl=1" alt="">
+     </div>
+    <script src="script.js"></script>
+    <script src="script2.js"></script>
+  </body>
+</html>
